@@ -57,9 +57,11 @@ namespace Expressions_and_IQueryable
 
 			var result = new ExchangeExpressionV2().VisitAndConvert(source, "");
 
-			var compiledResilt = result.Compile().Invoke(dict, 1, 1, 1);
+			Console.WriteLine(source); // (dictionary, a, b, c) => ((a + b) + c)
+			Console.WriteLine(result); // (dictionary, a, b, c) => ((dictionary.get_Item("a") + dictionary.get_Item("b")) + dictionary.get_Item("c"))
 
-			Console.WriteLine(result); // return 12
+			var compiledResult = result.Compile().Invoke(dict, 1, 1, 1);
+			Console.WriteLine(compiledResult); // return 12
 		}
 	}
 }

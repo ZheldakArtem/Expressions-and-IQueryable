@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Expressions_and_IQueryable\Task1.csproj", "{40796E2E-2785-4F95-A5C8-AA0271F6FF10}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{034BF632-8EA0-400F-9285-DE2F9C5AD78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{1613D54F-D270-4FF3-8F0C-905513F63B75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40796E2E-2785-4F95-A5C8-AA0271F6FF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40796E2E-2785-4F95-A5C8-AA0271F6FF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40796E2E-2785-4F95-A5C8-AA0271F6FF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40796E2E-2785-4F95-A5C8-AA0271F6FF10}.Release|Any CPU.Build.0 = Release|Any CPU
 		{034BF632-8EA0-400F-9285-DE2F9C5AD78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{034BF632-8EA0-400F-9285-DE2F9C5AD78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034BF632-8EA0-400F-9285-DE2F9C5AD78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{034BF632-8EA0-400F-9285-DE2F9C5AD78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1613D54F-D270-4FF3-8F0C-905513F63B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1613D54F-D270-4FF3-8F0C-905513F63B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1613D54F-D270-4FF3-8F0C-905513F63B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1613D54F-D270-4FF3-8F0C-905513F63B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
