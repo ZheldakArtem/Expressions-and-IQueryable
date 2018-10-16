@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomExpressionVisitor.cs" />
+    <Compile Include="ExchangeExpressionV2.cs" />
     <Compile Include="ExpressionVisitorTest.cs" />
     <Compile Include="ExchangeExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

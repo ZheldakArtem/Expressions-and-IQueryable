@@ -30,46 +30,6 @@ namespace Expressions_and_IQueryable
 
 			return result;
 		}
-		protected override Expression VisitBinary(BinaryExpression node)
-		{
-			//ParameterExpression parameterLeft = null;
-			//ParameterExpression parameterRight = null;
-			//ConstantExpression constant = null;
-
-			//if (node.Right.NodeType == ExpressionType.Parameter && node.Left.NodeType == ExpressionType.Parameter)
-			//{
-			//	parameterLeft = (ParameterExpression)node.Left;
-			//	parameterRight = (ParameterExpression)node.Right;
-
-			//	if (_exchangeDict.ContainsKey(parameterRight.Name) && _exchangeDict.ContainsKey(parameterLeft.Name))
-			//	{
-			//		return Expression.Constant(_exchangeDict[parameterRight.Name] + _exchangeDict[parameterLeft.Name]);
-			//	}
-			//}
-
-
-
-
-			//if (node.Right.NodeType == ExpressionType.Parameter)
-			//{
-			//	parameterRight = (ParameterExpression)node.Right;
-			//	if (_exchangeDict.ContainsKey(parameterRight.Name))
-			//	{
-			//		return Expression.Constant(_exchangeDict[parameterRight.Name]);
-			//	}
-			//}
-
-			//if (node.Left.NodeType == ExpressionType.Parameter)
-			//{
-			//	parameterLeft = (ParameterExpression)node.Left;
-			//	if (_exchangeDict.ContainsKey(parameterLeft.Name))
-			//	{
-			//		return Expression.Constant(_exchangeDict[parameterLeft.Name]);
-			//	}
-			//}
-
-			return base.VisitBinary(node);
-		}
 
 		protected override Expression VisitParameter(ParameterExpression node)
 		{
